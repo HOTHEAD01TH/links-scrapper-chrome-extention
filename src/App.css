@@ -1,0 +1,38 @@
+.app {
+  width: 400px;
+  padding: 16px;
+}
+
+.links-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 16px;
+}
+
+.link-item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.link-item.backlink {
+  background-color: #f0f8ff;
+}
+
+.link-text {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
